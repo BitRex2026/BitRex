@@ -1,0 +1,219 @@
+(footprint "IFLR-4031GC-01-8x10"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.735 2.967 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27f2caf4-7e37-4833-926c-8583c5a5b7af")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "220nH"
+		(at 0.1 4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fb4cb7ad-d34b-4d5e-b37d-c42013e36e73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35ceebb4-d1cd-4526-8ac0-b9d6e384c6c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0fcd4d9-235c-4fea-8d69-3150efce9ba7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Distributor" "D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96720e5c-87e1-4d5a-bad9-1d4b8bd180de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "FP1008R5-R220-R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06316358-055e-4b78-a4de-a161cbf7792d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "OrderNr" "283-FP1008R5-R220-RCT-ND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "419e9fdc-eb22-4f23-b159-24d1ff154e3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.2 -4)
+		(end -5.2 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6aed5e8-181e-4443-9fe0-9ac5dddd0c41")
+	)
+	(fp_line
+		(start -5.2 -4)
+		(end 5.2 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f246ee6d-ed24-46de-97e6-e53493307f15")
+	)
+	(fp_line
+		(start -5.2 4)
+		(end 5.2 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12325047-2ce5-46c5-86db-4603a135c811")
+	)
+	(fp_line
+		(start 5.2 -4)
+		(end 5.2 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4139bf9-9daf-4ff8-b74f-8be7b38e7d2f")
+	)
+	(fp_rect
+		(start -5.8 -4.5)
+		(end 5.8 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "006466ca-2777-4d85-87fd-8024a29af46a")
+	)
+	(fp_line
+		(start -5.2 -4)
+		(end -5.2 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4e56d9bf-affe-4b3f-b7ca-91001d38edbd")
+	)
+	(fp_line
+		(start -5.2 -4)
+		(end 5.2 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a081751d-87db-49e3-9608-25a65b92bcd7")
+	)
+	(fp_line
+		(start -5.2 4)
+		(end 5.2 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "34ac9a17-4fdd-415b-ba0b-462bf9efb560")
+	)
+	(fp_line
+		(start 5.2 -4)
+		(end 5.2 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cabe7fc4-429c-4249-b94d-7c80362c62c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4575e92-635b-4829-8d28-1b55f38510cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.805 0)
+		(size 3.3 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f033a7c1-b696-4fb4-9a2e-384b2552d57e")
+	)
+	(pad "2" smd rect
+		(at 3.805 0)
+		(size 3.3 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0015e654-93da-4303-99d6-3561cd206f38")
+	)
+	(embedded_fonts no)
+	(model "/home/thomas/git/quadaxe/3d/FP1006V2-R.STEP"
+		(offset
+			(xyz 3 -7.5 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)
