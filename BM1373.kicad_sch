@@ -10987,9 +10987,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 81.28 85.09 0)
-			(hide yes)
+		(property "Description" "DNP"
+			(at 79.248 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14439,9 +14438,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 85.09 199.39 0)
-			(hide yes)
+		(property "Description" "DNP"
+			(at 83.058 195.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15505,9 +15503,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 85.09 0)
-			(hide yes)
+		(property "Description" "DNP"
+			(at 200.914 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18375,7 +18372,7 @@
 		(dnp no)
 		(uuid "ad91e116-28b0-4562-8e75-9f77490d64ec")
 		(property "Reference" "R42"
-			(at 203.962 198.374 90)
+			(at 199.644 198.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18416,9 +18413,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 198.12 0)
-			(hide yes)
+		(property "Description" "DNP"
+			(at 199.898 194.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
