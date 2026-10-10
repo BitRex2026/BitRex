@@ -3034,10 +3034,6 @@
 		(uuid "7dd9e418-ab0b-4139-8dfa-a4955c073473")
 	)
 	(no_connect
-		(at 120.65 97.79)
-		(uuid "8594fb1c-429f-4179-a95e-aea4f37b463f")
-	)
-	(no_connect
 		(at 120.65 85.09)
 		(uuid "b023d35e-091c-4f48-8743-140eda68fec2")
 	)
