@@ -27683,7 +27683,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 100K OHM 1% 1/8W 0805"
+		(property "Description" "RES 66.5K OHM 1% 1/8W 0805"
 			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
