@@ -31482,7 +31482,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2µF/25V"
+		(property "Value" "10µF/25V"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "b31767dd-30a0-48ba-8d8a-97cf172c8981")
