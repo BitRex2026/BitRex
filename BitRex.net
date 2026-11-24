@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "E:\\NERD\\002-Proj\\BitRex\\002\\BitRex.kicad_sch")
-		(date "2026-11-24T21:41:45")
+		(date "2026-11-24T22:15:13")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
