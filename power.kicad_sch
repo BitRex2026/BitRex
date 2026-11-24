@@ -29703,7 +29703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2µF/25V"
+		(property "Value" "10µF/25V"
 			(at 93.218 138.938 90)
 			(show_name no)
 			(do_not_autoplace no)

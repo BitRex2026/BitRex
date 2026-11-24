@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "E:\\NERD\\002-Proj\\BitRex\\002\\BitRex.kicad_sch")
-		(date "2026-11-24T22:15:13")
+		(date "2026-11-24T22:32:40")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -1978,7 +1978,7 @@
 		)
 		(comp
 			(ref "C18")
-			(value "2.2µF/25V")
+			(value "10µF/25V")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "CAP CER 1UF 25V X7R 0805")
 			(fields

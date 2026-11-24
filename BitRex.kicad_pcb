@@ -28379,18 +28379,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step"
-			(offset
-				(xyz -22.9 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "C:/Users/ShamRe/Desktop/BitRex/BitRex/3d/T-Display-S3.STEP"
+		(model "${KIPRJMOD}/3d/T-Display-S3.STEP"
 			(offset
 				(xyz -24.5 -22 73)
 			)
@@ -28399,6 +28388,17 @@
 			)
 			(rotate
 				(xyz -0 -180 -0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step"
+			(offset
+				(xyz -23 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
