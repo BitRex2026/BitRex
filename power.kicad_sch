@@ -24919,7 +24919,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 2.2 OHM 1% 1/2W 0805"
+		(property "Description" ""
 			(at 110.49 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -24941,7 +24941,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "RCS08052R20FKEA"
+		(property "Manufacturer" ""
 			(at 110.49 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -24952,7 +24952,7 @@
 				)
 			)
 		)
-		(property "OrderNr" "541-10524-1-ND"
+		(property "OrderNr" ""
 			(at 110.49 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -29946,7 +29946,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 2.2 OHM 1% 1/2W 0805"
+		(property "Description" ""
 			(at 110.49 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -29968,7 +29968,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "RCS08052R20FKEA"
+		(property "Manufacturer" ""
 			(at 110.49 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -29979,7 +29979,7 @@
 				)
 			)
 		)
-		(property "OrderNr" "541-10524-1-ND"
+		(property "OrderNr" ""
 			(at 110.49 120.65 0)
 			(hide yes)
 			(show_name no)

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "E:\\NERD\\002-Proj\\001-BitRex\\003\\BitRex.kicad_sch")
-		(date "2026-11-27T12:02:01")
+		(date "2026-11-27T12:15:42")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -11394,21 +11394,23 @@
 			(ref "R11")
 			(value "1R/0.5W")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES SMD 2.2 OHM 1% 1/2W 0805")
 			(fields
 				(field
 					(name "Distributor") "D")
 				(field
-					(name "Manufacturer") "RCS08052R20FKEA")
+					(name "Manufacturer")
+				)
 				(field
-					(name "OrderNr") "541-10524-1-ND")
+					(name "OrderNr")
+				)
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "RES SMD 2.2 OHM 1% 1/2W 0805")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "Device")
@@ -11421,11 +11423,11 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "RCS08052R20FKEA")
+				(value "")
 			)
 			(property
 				(name "OrderNr")
-				(value "541-10524-1-ND")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -11466,21 +11468,23 @@
 			(ref "R12")
 			(value "1R/0.5W")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES SMD 2.2 OHM 1% 1/2W 0805")
 			(fields
 				(field
 					(name "Distributor") "D")
 				(field
-					(name "Manufacturer") "RCS08052R20FKEA")
+					(name "Manufacturer")
+				)
 				(field
-					(name "OrderNr") "541-10524-1-ND")
+					(name "OrderNr")
+				)
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "RES SMD 2.2 OHM 1% 1/2W 0805")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "Device")
@@ -11493,11 +11497,11 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "RCS08052R20FKEA")
+				(value "")
 			)
 			(property
 				(name "OrderNr")
-				(value "541-10524-1-ND")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
