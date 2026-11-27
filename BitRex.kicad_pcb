@@ -8473,7 +8473,7 @@
 				)
 			)
 		)
-		(property "Value" "PWE_EN"
+		(property "Value" "SolderJumper_2_Open"
 			(at -0.38 3.21 90)
 			(layer "F.SilkS")
 			(uuid "256f6f38-e37c-4090-8d2a-c390c987a425")
@@ -17906,7 +17906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17917,7 +17917,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG LINEAR 3.3V 600MA/1A SOT23-5 (AP2112K-3.3TRG1 / ME6211C33M5G-N / TLV75733PDBVR)"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17940,7 +17940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "AP2112K-3.3TRG1"
+		(property "Manufacturer" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23063,7 +23063,7 @@
 				)
 			)
 		)
-		(property "Value" "12V/15A"
+		(property "Value" "Fuse/15A"
 			(at 4.96 -2.782397 90)
 			(layer "F.SilkS")
 			(uuid "9d058378-7b93-4291-a127-3d05c4a2518f")
@@ -51771,7 +51771,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES SMD 2.2 OHM 1% 1/2W 0805"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -51810,7 +51810,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "RCS08052R20FKEA"
+		(property "Manufacturer" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51824,7 +51824,7 @@
 				(justify mirror)
 			)
 		)
-		(property "OrderNr" "541-10524-1-ND"
+		(property "OrderNr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55558,7 +55558,7 @@
 				(justify mirror)
 			)
 		)
-		(property "OrderNr" "RMCF0805FT33K2CT-ND"
+		(property "OrderNr" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55572,7 +55572,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "RMCF0805FT33K2"
+		(property "Manufacturer" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -61511,7 +61511,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0805"
+		(property "Description" "CAP CER 2.2UF 25V X7R 0805"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -61550,7 +61550,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "CL21B105KAFNNNE"
+		(property "Manufacturer" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -61564,7 +61564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "OrderNr" "1276-1066-1-ND"
+		(property "OrderNr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66923,7 +66923,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "RES SMD 2.2 OHM 1% 1/2W 0805"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -66962,7 +66962,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "RCS08052R20FKEA"
+		(property "Manufacturer" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -66976,7 +66976,7 @@
 				(justify mirror)
 			)
 		)
-		(property "OrderNr" "541-10524-1-ND"
+		(property "OrderNr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
