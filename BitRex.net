@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "E:\\NERD\\002-Proj\\BitRex\\002\\BitRex.kicad_sch")
-		(date "2026-11-24T22:32:40")
+		(source "C:\\Users\\ShamRe\\Downloads\\BitRex-main\\BitRex-main\\BitRex.kicad_sch")
+		(date "2026-09-03T08:19:56")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -1978,7 +1978,7 @@
 		)
 		(comp
 			(ref "C18")
-			(value "10µF/25V")
+			(value "2.2µF/25V")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "CAP CER 1UF 25V X7R 0805")
 			(fields
@@ -9995,114 +9995,6 @@
 			)
 		)
 		(comp
-			(ref "C212")
-			(value "1µF/25V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(description "CAP CER 1UF 25V X7R 0805")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "CAP CER 1UF 25V X7R 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "d0259ddf-fbe2-4a2b-8354-9072bfd61120")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C213")
-			(value "1µF/25V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(description "CAP CER 1UF 25V X7R 0805")
-			(fields
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "CAP CER 1UF 25V X7R 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "2968af89-a292-45e7-9895-2f843d010078")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "D2")
 			(value "PMEG4030EP,115")
 			(footprint "Diode_SMD:D_SOD-128")
@@ -10668,9 +10560,9 @@
 		)
 		(comp
 			(ref "R1")
-			(value "66.5k")
+			(value "100k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 66.5K OHM 1% 1/8W 0805")
+			(description "RES 100K OHM 1% 1/8W 0805")
 			(fields
 				(field
 					(name "Distributor") "D")
@@ -10684,7 +10576,7 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "RES 66.5K OHM 1% 1/8W 0805")
+					(name "Description") "RES 100K OHM 1% 1/8W 0805")
 			)
 			(libsource
 				(lib "Device")
@@ -10956,23 +10848,23 @@
 		)
 		(comp
 			(ref "R5")
-			(value "10k")
+			(value "100k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 10K OHM 1% 1/8W 0805")
+			(description "RES 100K OHM 1% 1/8W 0805")
 			(fields
 				(field
 					(name "Distributor") "D")
 				(field
-					(name "Manufacturer") "RMCF0805FT10K0")
+					(name "Manufacturer") "RMCF0805FT100K")
 				(field
-					(name "OrderNr") "RMCF0805FT10K0CT-ND")
+					(name "OrderNr") "RMCF0805FT100KCT-ND")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "RES 10K OHM 1% 1/8W 0805")
+					(name "Description") "RES 100K OHM 1% 1/8W 0805")
 			)
 			(libsource
 				(lib "Device")
@@ -10985,11 +10877,11 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "RMCF0805FT10K0")
+				(value "RMCF0805FT100K")
 			)
 			(property
 				(name "OrderNr")
-				(value "RMCF0805FT10K0CT-ND")
+				(value "RMCF0805FT100KCT-ND")
 			)
 			(property
 				(name "Sheetname")
@@ -13011,582 +12903,6 @@
 			)
 		)
 		(comp
-			(ref "R57")
-			(value "20k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 20K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-20.0KCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-0720KL")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 20K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-20.0KCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-0720KL")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "e6b71369-30ff-4b2d-95a7-341939c66d2d")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R58")
-			(value "1M")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 1M OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-1.00MCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-071ML")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 1M OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-1.00MCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-071ML")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "d1b3526c-2d64-458f-af97-3b48cc71b2fe")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R59")
-			(value "16.5k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES SMD 16.5K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "541-16.5KCCT-ND")
-				(field
-					(name "Manufacturer") "CRCW080516K5FKEA")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES SMD 16.5K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "541-16.5KCCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "CRCW080516K5FKEA")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "9b2fc282-dcff-4d21-b080-be05982249f9")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R60")
-			(value "24.3k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 24.3K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-24.3KCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-0724K3L")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 24.3K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-24.3KCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-0724K3L")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "f06a12f9-98ef-423b-a6ea-31dd6033560a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R61")
-			(value "13.3k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 13.3K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-13.3KCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-0713K3L")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 13.3K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-13.3KCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-0713K3L")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "be90e451-b505-4b18-8157-9a7e6d19fbaa")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R62")
-			(value "150k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 150K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-150KCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-07150KL")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 150K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-150KCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-07150KL")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "3fcb7533-05cc-401e-842d-d7c400b04a1e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R63")
-			(value "20k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 20K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-20.0KCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-0720KL")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 20K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-20.0KCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-0720KL")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "ee9819cf-bbbb-4c76-93ca-e01b541e29ae")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R64")
-			(value "4.32k")
-			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(description "RES 4.32K OHM 1% 1/8W 0805")
-			(fields
-				(field
-					(name "Distributor") "D")
-				(field
-					(name "OrderNr") "311-4.32KCRCT-ND")
-				(field
-					(name "Manufacturer") "RC0805FR-074K32L")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "RES 4.32K OHM 1% 1/8W 0805")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Distributor")
-				(value "D")
-			)
-			(property
-				(name "OrderNr")
-				(value "311-4.32KCRCT-ND")
-			)
-			(property
-				(name "Manufacturer")
-				(value "RC0805FR-074K32L")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "8c3f02d5-d5fb-433d-8816-450e3913b3b5")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "TP1")
 			(value "3V3")
 			(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
@@ -14445,67 +13761,6 @@
 						)
 						(pin
 							(num "13")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "U20")
-			(value "TLV75733PDBVR")
-			(footprint "Package_TO_SOT_SMD:SOT-23-5")
-			(datasheet "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
-			(description "IC REG LINEAR 3.3V 600MA/1A SOT23-5 (AP2112K-3.3TRG1 / ME6211C33M5G-N / TLV75733PDBVR)")
-			(fields
-				(field
-					(name "Manufacturer") "AP2112K-3.3TRG1")
-				(field
-					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
-				(field
-					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
-				(field
-					(name "Description") "IC REG LINEAR 3.3V 600MA/1A SOT23-5 (AP2112K-3.3TRG1 / ME6211C33M5G-N / TLV75733PDBVR)")
-			)
-			(libsource
-				(lib "bitaxe")
-				(part "MCP1824")
-				(description "")
-			)
-			(property
-				(name "Manufacturer")
-				(value "AP2112K-3.3TRG1")
-			)
-			(property
-				(name "Sheetname")
-				(value "Power")
-			)
-			(property
-				(name "Sheetfile")
-				(value "power.kicad_sch")
-			)
-			(sheetpath
-				(names "/Power/")
-				(tstamps "/8ec0a9c6-2b78-44ef-a83d-9047d2828409/")
-			)
-			(tstamps "22455f42-13fe-454e-9380-6b334eaddaba")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-						(pin
-							(num "5")
-						)
-						(pin
-							(num "2")
 						)
 					)
 				)
@@ -16469,142 +15724,6 @@
 				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
 			)
 			(tstamps "df305a6c-e0b8-43b6-8a84-7d5f7c7427cf")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C167")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "d5c7a938-fee2-47ad-aebd-ed44ef36140c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C168")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "b77e5d52-94d0-4bea-a1c9-cca302038fc0")
 			(units
 				(unit
 					(name "A")
@@ -18796,414 +17915,6 @@
 			)
 		)
 		(comp
-			(ref "C206")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "3aaeb623-0815-4e05-9822-ee56970c2274")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C207")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "a2de4419-e7df-459d-bc2a-816525b0cbac")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C208")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "ed693fc7-25c0-40e9-9293-46db260c5f4e")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C209")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "7a5fd50a-ce83-4da9-948b-7cd87536f27a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C210")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "d4329c48-28d2-4056-9a1f-1c59e88840aa")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C211")
-			(value "1uF 50V")
-			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(fields
-				(field
-					(name "DK")
-				)
-				(field
-					(name "PARTNO")
-				)
-				(field
-					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "DK")
-				(value "")
-			)
-			(property
-				(name "PARTNO")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "BM1373")
-			)
-			(property
-				(name "Sheetfile")
-				(value "BM1373.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/BM1373/")
-				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
-			)
-			(tstamps "c138bbd3-084a-47d7-a003-541c845a653c")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "J4")
 			(value "Conn_01x06")
 			(footprint "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical")
@@ -19444,7 +18155,6 @@
 			(ref "R34")
 			(value "1k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "DNP")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
@@ -19452,7 +18162,8 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "DNP")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "Device")
@@ -19498,7 +18209,6 @@
 			(ref "R35")
 			(value "1k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "DNP")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
@@ -19506,7 +18216,8 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "DNP")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "Device")
@@ -19876,7 +18587,6 @@
 			(ref "R42")
 			(value "1k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "DNP")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
@@ -19884,7 +18594,8 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "DNP")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "Device")
@@ -19930,7 +18641,6 @@
 			(ref "R43")
 			(value "1k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "DNP")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
@@ -19938,7 +18648,8 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "DNP")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "Device")
@@ -20090,7 +18801,7 @@
 		)
 		(comp
 			(ref "R46")
-			(value "1k")
+			(value "10k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
@@ -20127,7 +18838,7 @@
 				(names "/BM1373/")
 				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
 			)
-			(tstamps "018736a7-2be7-4b70-8244-65b6ba2d2eb4")
+			(tstamps "dd406921-4c18-4f00-9ca9-764486af8fbb")
 			(units
 				(unit
 					(name "A")
@@ -20144,7 +18855,7 @@
 		)
 		(comp
 			(ref "R47")
-			(value "1k")
+			(value "10k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
@@ -20181,7 +18892,7 @@
 				(names "/BM1373/")
 				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
 			)
-			(tstamps "1dee89da-39ef-4fa1-8388-e4415bc3ec96")
+			(tstamps "bc778ff0-4fa6-4f0f-ba58-48bd1d1e600d")
 			(units
 				(unit
 					(name "A")
@@ -20198,7 +18909,7 @@
 		)
 		(comp
 			(ref "R48")
-			(value "1k")
+			(value "10k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
@@ -20235,7 +18946,7 @@
 				(names "/BM1373/")
 				(tstamps "/4cf9c075-d009-4c35-9949-adda70ae20c7/")
 			)
-			(tstamps "76cfce09-0e5c-4ff2-a759-41c1720c1f93")
+			(tstamps "32a954f3-223c-4040-83a9-16e7b54507d4")
 			(units
 				(unit
 					(name "A")
@@ -20252,7 +18963,7 @@
 		)
 		(comp
 			(ref "R49")
-			(value "1k")
+			(value "10k")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(fields
 				(field
@@ -21376,6 +20087,90 @@
 				(tstamps "/9bc1a7d6-07fa-4858-9423-fb2dbf7da294/")
 			)
 			(tstamps "0d8d8f7c-faf4-4deb-867b-87d3f37e8615")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "1N5819")
+			(footprint "Diode_SMD:D_SOD-123")
+			(datasheet "https://www.diodes.com/assets/Datasheets/ds16008.pdf")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Distributor") "D")
+				(field
+					(name "Manufacturer") "1N5819HWQ-7-F")
+				(field
+					(name "OrderNr") "31-1N5819HWQ-7-FCT-ND")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds16008.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Diode")
+				(part "US1D")
+				(description "200V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Distributor")
+				(value "D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "1N5819HWQ-7-F")
+			)
+			(property
+				(name "OrderNr")
+				(value "31-1N5819HWQ-7-FCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "T-Display-S3")
+			)
+			(property
+				(name "Sheetfile")
+				(value "pi.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Ultra Fast")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SMA*")
+			)
+			(sheetpath
+				(names "/T-Display-S3/")
+				(tstamps "/9bc1a7d6-07fa-4858-9423-fb2dbf7da294/")
+			)
+			(tstamps "bc8f145e-5f13-471f-8f2e-22bb51024d56")
 			(units
 				(unit
 					(name "A")
@@ -23072,6 +21867,43 @@
 			)
 		)
 		(libpart
+			(lib "Diode")
+			(part "US1D")
+			(description "200V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)")
+			(docs "https://www.diodes.com/assets/Datasheets/ds16008.pdf")
+			(footprints
+				(fp "D*SMA*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "US1D")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds16008.pdf")
+				(field
+					(name "Description") "200V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Jumper")
 			(part "SolderJumper_2_Open")
 			(description "Solder Jumper, 2-pole, open")
@@ -24574,11 +23406,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C213")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C9")
 				(pin "1")
 				(pintype "passive")
@@ -24668,12 +23495,6 @@
 				(pintype "power_in")
 			)
 			(node
-				(ref "U20")
-				(pin "5")
-				(pinfunction "VOUT_5")
-				(pintype "power_out")
-			)
-			(node
 				(ref "U3")
 				(pin "1")
 				(pinfunction "VIN_1")
@@ -24716,8 +23537,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C212")
-				(pin "1")
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
@@ -24762,18 +23584,6 @@
 				(pin "7")
 				(pinfunction "VCCB_7")
 				(pintype "power_in")
-			)
-			(node
-				(ref "U20")
-				(pin "1")
-				(pinfunction "VIN_1")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U20")
-				(pin "3")
-				(pinfunction "EN_3")
-				(pintype "input")
 			)
 		)
 		(net
@@ -25085,26 +23895,6 @@
 			)
 			(node
 				(ref "R54")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R58")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R59")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R61")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R64")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -26260,27 +25050,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "C207")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C21")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C211")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C212")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C213")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -26836,28 +25606,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R57")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R6")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R60")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R62")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R63")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -27078,12 +25828,6 @@
 			)
 			(node
 				(ref "U2")
-				(pin "2")
-				(pinfunction "GND_2")
-				(pintype "power_in")
-			)
-			(node
-				(ref "U20")
 				(pin "2")
 				(pinfunction "GND_2")
 				(pintype "power_in")
@@ -27316,6 +26060,23 @@
 		)
 		(net
 			(code "43")
+			(name "Net-(D3-K)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U15")
+				(pin "12")
+				(pinfunction "5V_12")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "44")
 			(name "Net-(F1-Pad1)")
 			(class "Default")
 			(node
@@ -27331,7 +26092,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "45")
 			(name "Net-(JP1-A)")
 			(class "Default")
 			(node
@@ -27364,7 +26125,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "46")
 			(name "Net-(JP2-A)")
 			(class "Default")
 			(node
@@ -27391,7 +26152,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "47")
 			(name "Net-(M1-PWM)")
 			(class "Default")
 			(node
@@ -27408,7 +26169,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "48")
 			(name "Net-(M2-PWM)")
 			(class "Default")
 			(node
@@ -27425,7 +26186,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "49")
 			(name "Net-(U1-ADDR_TRISE)")
 			(class "Default")
 			(node
@@ -27446,7 +26207,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "50")
 			(name "Net-(U1-COMP)")
 			(class "Default")
 			(node
@@ -27467,7 +26228,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "51")
 			(name "Net-(U1-F-IMAX)")
 			(class "Default")
 			(node
@@ -27488,7 +26249,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "52")
 			(name "Net-(U1-IMON)")
 			(class "Default")
 			(node
@@ -27509,7 +26270,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "53")
 			(name "Net-(U1-ISUM)")
 			(class "Default")
 			(node
@@ -27525,70 +26286,7 @@
 			)
 		)
 		(net
-			(code "53")
-			(name "Net-(U1-O-USR)")
-			(class "Default")
-			(node
-				(ref "R61")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R62")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "30")
-				(pinfunction "O-USR_30")
-				(pintype "passive")
-			)
-		)
-		(net
 			(code "54")
-			(name "Net-(U1-OCL-R)")
-			(class "Default")
-			(node
-				(ref "R63")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R64")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "1")
-				(pinfunction "OCL-R_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "55")
-			(name "Net-(U1-SLEW-MODE)")
-			(class "Default")
-			(node
-				(ref "R59")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R60")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "29")
-				(pinfunction "SLEW-MODE_29")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "56")
 			(name "Net-(U1-V3R3)")
 			(class "Default")
 			(node
@@ -27604,7 +26302,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "55")
 			(name "Net-(U1-V5)")
 			(class "Default")
 			(node
@@ -27625,28 +26323,7 @@
 			)
 		)
 		(net
-			(code "58")
-			(name "Net-(U1-VBOOT)")
-			(class "Default")
-			(node
-				(ref "R57")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R58")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "31")
-				(pinfunction "VBOOT_31")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "59")
+			(code "56")
 			(name "Net-(U1-VIN)")
 			(class "Default")
 			(node
@@ -27667,7 +26344,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "57")
 			(name "Net-(U1-VSN)")
 			(class "Default")
 			(node
@@ -27693,7 +26370,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "58")
 			(name "Net-(U1-VSP)")
 			(class "Default")
 			(node
@@ -27719,7 +26396,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "59")
 			(name "Net-(U2-BS)")
 			(class "Default")
 			(node
@@ -27735,7 +26412,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "60")
 			(name "Net-(U2-FB)")
 			(class "Default")
 			(node
@@ -27756,7 +26433,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "61")
 			(name "Net-(U5-BOOT)")
 			(class "Default")
 			(node
@@ -27772,7 +26449,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "62")
 			(name "Net-(U5-BOOT_R)")
 			(class "Default")
 			(node
@@ -27788,7 +26465,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "63")
 			(name "Net-(U5-ENABLE)")
 			(class "Default")
 			(node
@@ -27815,7 +26492,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "64")
 			(name "Net-(U5-VSW)")
 			(class "Default")
 			(node
@@ -27842,7 +26519,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "65")
 			(name "Net-(U6-BOOT)")
 			(class "Default")
 			(node
@@ -27858,7 +26535,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "66")
 			(name "Net-(U6-BOOT_R)")
 			(class "Default")
 			(node
@@ -27874,7 +26551,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "67")
 			(name "Net-(U6-ENABLE)")
 			(class "Default")
 			(node
@@ -27901,7 +26578,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "68")
 			(name "Net-(U6-VSW)")
 			(class "Default")
 			(node
@@ -27928,7 +26605,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "69")
 			(name "Net-(U7-BOOT)")
 			(class "Default")
 			(node
@@ -27944,7 +26621,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "70")
 			(name "Net-(U7-BOOT_R)")
 			(class "Default")
 			(node
@@ -27960,7 +26637,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "71")
 			(name "Net-(U7-ENABLE)")
 			(class "Default")
 			(node
@@ -27987,7 +26664,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "72")
 			(name "Net-(U7-VSW)")
 			(class "Default")
 			(node
@@ -28014,7 +26691,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "73")
 			(name "Net-(U8-BOOT)")
 			(class "Default")
 			(node
@@ -28030,7 +26707,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "74")
 			(name "Net-(U8-BOOT_R)")
 			(class "Default")
 			(node
@@ -28046,7 +26723,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "75")
 			(name "Net-(U8-ENABLE)")
 			(class "Default")
 			(node
@@ -28073,7 +26750,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "76")
 			(name "Net-(U8-VSW)")
 			(class "Default")
 			(node
@@ -28100,7 +26777,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "77")
 			(name "Net-(U10-BO)")
 			(class "Default")
 			(node
@@ -28122,7 +26799,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "78")
 			(name "Net-(U10-CLKO)")
 			(class "Default")
 			(node
@@ -28139,7 +26816,7 @@
 			)
 		)
 		(net
-			(code "82")
+			(code "79")
 			(name "Net-(U10-CO)")
 			(class "Default")
 			(node
@@ -28156,7 +26833,7 @@
 			)
 		)
 		(net
-			(code "83")
+			(code "80")
 			(name "Net-(U10-LITE_PAD)")
 			(class "Default")
 			(node
@@ -28172,7 +26849,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "81")
 			(name "Net-(U10-NRSTO)")
 			(class "Default")
 			(node
@@ -28194,7 +26871,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "82")
 			(name "Net-(U10-RI)")
 			(class "Default")
 			(node
@@ -28216,7 +26893,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "83")
 			(name "Net-(U10-ROSC_SEL)")
 			(class "Default")
 			(node
@@ -28232,7 +26909,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "84")
 			(name "Net-(U10-VDD1_0)")
 			(class "Default")
 			(node
@@ -28253,7 +26930,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "85")
 			(name "Net-(U10-VDD1_1)")
 			(class "Default")
 			(node
@@ -28272,9 +26949,15 @@
 				(pinfunction "VDD1_1_28")
 				(pintype "passive")
 			)
+			(node
+				(ref "U11")
+				(pin "3")
+				(pinfunction "VDD1_0_3")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "89")
+			(code "86")
 			(name "Net-(U10-VDD2_0)")
 			(class "Default")
 			(node
@@ -28295,7 +26978,7 @@
 			)
 		)
 		(net
-			(code "90")
+			(code "87")
 			(name "Net-(U10-VDD2_1)")
 			(class "Default")
 			(node
@@ -28314,9 +26997,15 @@
 				(pinfunction "VDD2_1_29")
 				(pintype "passive")
 			)
+			(node
+				(ref "U11")
+				(pin "2")
+				(pinfunction "VDD2_0_2")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "91")
+			(code "88")
 			(name "Net-(U10-VDD3_0)")
 			(class "Default")
 			(node
@@ -28337,7 +27026,7 @@
 			)
 		)
 		(net
-			(code "92")
+			(code "89")
 			(name "Net-(U10-VDD3_1)")
 			(class "Default")
 			(node
@@ -28356,9 +27045,15 @@
 				(pinfunction "VDD3_1_30")
 				(pintype "passive")
 			)
+			(node
+				(ref "U11")
+				(pin "1")
+				(pinfunction "VDD3_0_1")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "93")
+			(code "90")
 			(name "Net-(U11-BO)")
 			(class "Default")
 			(node
@@ -28380,7 +27075,7 @@
 			)
 		)
 		(net
-			(code "94")
+			(code "91")
 			(name "Net-(U11-CLKO)")
 			(class "Default")
 			(node
@@ -28397,7 +27092,7 @@
 			)
 		)
 		(net
-			(code "95")
+			(code "92")
 			(name "Net-(U11-CO)")
 			(class "Default")
 			(node
@@ -28414,7 +27109,7 @@
 			)
 		)
 		(net
-			(code "96")
+			(code "93")
 			(name "Net-(U11-LITE_PAD)")
 			(class "Default")
 			(node
@@ -28430,7 +27125,7 @@
 			)
 		)
 		(net
-			(code "97")
+			(code "94")
 			(name "Net-(U11-NRSTO)")
 			(class "Default")
 			(node
@@ -28452,7 +27147,7 @@
 			)
 		)
 		(net
-			(code "98")
+			(code "95")
 			(name "Net-(U11-RI)")
 			(class "Default")
 			(node
@@ -28474,7 +27169,7 @@
 			)
 		)
 		(net
-			(code "99")
+			(code "96")
 			(name "Net-(U11-ROSC_SEL)")
 			(class "Default")
 			(node
@@ -28490,28 +27185,7 @@
 			)
 		)
 		(net
-			(code "100")
-			(name "Net-(U11-VDD1_0)")
-			(class "Default")
-			(node
-				(ref "C206")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C207")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U11")
-				(pin "3")
-				(pinfunction "VDD1_0_3")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "101")
+			(code "97")
 			(name "Net-(U11-VDD1_1)")
 			(class "Default")
 			(node
@@ -28532,28 +27206,7 @@
 			)
 		)
 		(net
-			(code "102")
-			(name "Net-(U11-VDD2_0)")
-			(class "Default")
-			(node
-				(ref "C168")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C206")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U11")
-				(pin "2")
-				(pinfunction "VDD2_0_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "103")
+			(code "98")
 			(name "Net-(U11-VDD2_1)")
 			(class "Default")
 			(node
@@ -28574,28 +27227,7 @@
 			)
 		)
 		(net
-			(code "104")
-			(name "Net-(U11-VDD3_0)")
-			(class "Default")
-			(node
-				(ref "C167")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C168")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U11")
-				(pin "1")
-				(pinfunction "VDD3_0_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "105")
+			(code "99")
 			(name "Net-(U11-VDD3_1)")
 			(class "Default")
 			(node
@@ -28616,7 +27248,7 @@
 			)
 		)
 		(net
-			(code "106")
+			(code "100")
 			(name "Net-(U12-BO)")
 			(class "Default")
 			(node
@@ -28638,7 +27270,7 @@
 			)
 		)
 		(net
-			(code "107")
+			(code "101")
 			(name "Net-(U12-CLKO)")
 			(class "Default")
 			(node
@@ -28655,7 +27287,7 @@
 			)
 		)
 		(net
-			(code "108")
+			(code "102")
 			(name "Net-(U12-CO)")
 			(class "Default")
 			(node
@@ -28672,7 +27304,7 @@
 			)
 		)
 		(net
-			(code "109")
+			(code "103")
 			(name "Net-(U12-LITE_PAD)")
 			(class "Default")
 			(node
@@ -28688,7 +27320,7 @@
 			)
 		)
 		(net
-			(code "110")
+			(code "104")
 			(name "Net-(U12-NRSTO)")
 			(class "Default")
 			(node
@@ -28710,7 +27342,7 @@
 			)
 		)
 		(net
-			(code "111")
+			(code "105")
 			(name "Net-(U12-RI)")
 			(class "Default")
 			(node
@@ -28732,7 +27364,7 @@
 			)
 		)
 		(net
-			(code "112")
+			(code "106")
 			(name "Net-(U12-ROSC_SEL)")
 			(class "Default")
 			(node
@@ -28748,7 +27380,7 @@
 			)
 		)
 		(net
-			(code "113")
+			(code "107")
 			(name "Net-(U12-VDD1_0)")
 			(class "Default")
 			(node
@@ -28769,7 +27401,7 @@
 			)
 		)
 		(net
-			(code "114")
+			(code "108")
 			(name "Net-(U12-VDD1_1)")
 			(class "Default")
 			(node
@@ -28788,9 +27420,15 @@
 				(pinfunction "VDD1_1_28")
 				(pintype "passive")
 			)
+			(node
+				(ref "U13")
+				(pin "3")
+				(pinfunction "VDD1_0_3")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "115")
+			(code "109")
 			(name "Net-(U12-VDD2_0)")
 			(class "Default")
 			(node
@@ -28811,7 +27449,7 @@
 			)
 		)
 		(net
-			(code "116")
+			(code "110")
 			(name "Net-(U12-VDD2_1)")
 			(class "Default")
 			(node
@@ -28830,9 +27468,15 @@
 				(pinfunction "VDD2_1_29")
 				(pintype "passive")
 			)
+			(node
+				(ref "U13")
+				(pin "2")
+				(pinfunction "VDD2_0_2")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "117")
+			(code "111")
 			(name "Net-(U12-VDD3_0)")
 			(class "Default")
 			(node
@@ -28853,7 +27497,7 @@
 			)
 		)
 		(net
-			(code "118")
+			(code "112")
 			(name "Net-(U12-VDD3_1)")
 			(class "Default")
 			(node
@@ -28872,9 +27516,15 @@
 				(pinfunction "VDD3_1_30")
 				(pintype "passive")
 			)
+			(node
+				(ref "U13")
+				(pin "1")
+				(pinfunction "VDD3_0_1")
+				(pintype "passive")
+			)
 		)
 		(net
-			(code "119")
+			(code "113")
 			(name "Net-(U13-LITE_PAD)")
 			(class "Default")
 			(node
@@ -28890,7 +27540,7 @@
 			)
 		)
 		(net
-			(code "120")
+			(code "114")
 			(name "Net-(U13-RI)")
 			(class "Default")
 			(node
@@ -28906,7 +27556,7 @@
 			)
 		)
 		(net
-			(code "121")
+			(code "115")
 			(name "Net-(U13-ROSC_SEL)")
 			(class "Default")
 			(node
@@ -28922,28 +27572,7 @@
 			)
 		)
 		(net
-			(code "122")
-			(name "Net-(U13-VDD1_0)")
-			(class "Default")
-			(node
-				(ref "C210")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C211")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U13")
-				(pin "3")
-				(pinfunction "VDD1_0_3")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "123")
+			(code "116")
 			(name "Net-(U13-VDD1_1)")
 			(class "Default")
 			(node
@@ -28964,28 +27593,7 @@
 			)
 		)
 		(net
-			(code "124")
-			(name "Net-(U13-VDD2_0)")
-			(class "Default")
-			(node
-				(ref "C209")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C210")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U13")
-				(pin "2")
-				(pinfunction "VDD2_0_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "125")
+			(code "117")
 			(name "Net-(U13-VDD2_1)")
 			(class "Default")
 			(node
@@ -29006,28 +27614,7 @@
 			)
 		)
 		(net
-			(code "126")
-			(name "Net-(U13-VDD3_0)")
-			(class "Default")
-			(node
-				(ref "C208")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C209")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U13")
-				(pin "1")
-				(pinfunction "VDD3_0_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "127")
+			(code "118")
 			(name "Net-(U13-VDD3_1)")
 			(class "Default")
 			(node
@@ -29048,7 +27635,7 @@
 			)
 		)
 		(net
-			(code "128")
+			(code "119")
 			(name "Net-(U16-PWM1)")
 			(class "Default")
 			(node
@@ -29065,7 +27652,7 @@
 			)
 		)
 		(net
-			(code "129")
+			(code "120")
 			(name "Net-(U16-PWM2)")
 			(class "Default")
 			(node
@@ -29082,7 +27669,7 @@
 			)
 		)
 		(net
-			(code "130")
+			(code "121")
 			(name "VDD")
 			(class "Default")
 			(node
@@ -29168,11 +27755,6 @@
 			(node
 				(ref "C152")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C167")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -29273,11 +27855,6 @@
 			(node
 				(ref "C200")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C208")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -29550,7 +28127,7 @@
 			)
 		)
 		(net
-			(code "131")
+			(code "122")
 			(name "unconnected-(U1-NC-Pad7)")
 			(class "Default")
 			(node
@@ -29561,7 +28138,7 @@
 			)
 		)
 		(net
-			(code "132")
+			(code "123")
 			(name "unconnected-(U1-NC-Pad8)")
 			(class "Default")
 			(node
@@ -29572,7 +28149,7 @@
 			)
 		)
 		(net
-			(code "133")
+			(code "124")
 			(name "unconnected-(U1-NC-Pad33)")
 			(class "Default")
 			(node
@@ -29583,7 +28160,7 @@
 			)
 		)
 		(net
-			(code "134")
+			(code "125")
 			(name "unconnected-(U1-NC-Pad34)")
 			(class "Default")
 			(node
@@ -29594,7 +28171,51 @@
 			)
 		)
 		(net
-			(code "135")
+			(code "126")
+			(name "unconnected-(U1-O-USR-Pad30)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "O-USR_30")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "127")
+			(name "unconnected-(U1-OCL-R-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "OCL-R_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "128")
+			(name "unconnected-(U1-SLEW-MODE-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "SLEW-MODE_29")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "129")
+			(name "unconnected-(U1-VBOOT-Pad31)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "VBOOT_31")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "130")
 			(name "unconnected-(U1-{slash}PMB_ALERT-Pad25)")
 			(class "Default")
 			(node
@@ -29605,7 +28226,7 @@
 			)
 		)
 		(net
-			(code "136")
+			(code "131")
 			(name "unconnected-(U1-{slash}VR_FAULT-Pad27)")
 			(class "Default")
 			(node
@@ -29616,7 +28237,7 @@
 			)
 		)
 		(net
-			(code "137")
+			(code "132")
 			(name "unconnected-(U1-{slash}VR_HOT-Pad19)")
 			(class "Default")
 			(node
@@ -29627,7 +28248,7 @@
 			)
 		)
 		(net
-			(code "138")
+			(code "133")
 			(name "unconnected-(U3-PG-Pad4)")
 			(class "Default")
 			(node
@@ -29638,7 +28259,7 @@
 			)
 		)
 		(net
-			(code "139")
+			(code "134")
 			(name "unconnected-(U4-PG-Pad4)")
 			(class "Default")
 			(node
@@ -29649,7 +28270,7 @@
 			)
 		)
 		(net
-			(code "140")
+			(code "135")
 			(name "unconnected-(U10-INV_CLKO-Pad12)")
 			(class "Default")
 			(node
@@ -29660,7 +28281,7 @@
 			)
 		)
 		(net
-			(code "141")
+			(code "136")
 			(name "unconnected-(U10-PIN_MODE-Pad19)")
 			(class "Default")
 			(node
@@ -29671,7 +28292,7 @@
 			)
 		)
 		(net
-			(code "142")
+			(code "137")
 			(name "unconnected-(U10-TEMP_N-Pad21)")
 			(class "Default")
 			(node
@@ -29682,7 +28303,7 @@
 			)
 		)
 		(net
-			(code "143")
+			(code "138")
 			(name "unconnected-(U10-TEMP_P-Pad20)")
 			(class "Default")
 			(node
@@ -29693,7 +28314,7 @@
 			)
 		)
 		(net
-			(code "144")
+			(code "139")
 			(name "unconnected-(U11-INV_CLKO-Pad12)")
 			(class "Default")
 			(node
@@ -29704,7 +28325,7 @@
 			)
 		)
 		(net
-			(code "145")
+			(code "140")
 			(name "unconnected-(U11-PIN_MODE-Pad19)")
 			(class "Default")
 			(node
@@ -29715,7 +28336,7 @@
 			)
 		)
 		(net
-			(code "146")
+			(code "141")
 			(name "unconnected-(U11-TEMP_N-Pad21)")
 			(class "Default")
 			(node
@@ -29726,7 +28347,7 @@
 			)
 		)
 		(net
-			(code "147")
+			(code "142")
 			(name "unconnected-(U11-TEMP_P-Pad20)")
 			(class "Default")
 			(node
@@ -29737,7 +28358,7 @@
 			)
 		)
 		(net
-			(code "148")
+			(code "143")
 			(name "unconnected-(U12-INV_CLKO-Pad12)")
 			(class "Default")
 			(node
@@ -29748,7 +28369,7 @@
 			)
 		)
 		(net
-			(code "149")
+			(code "144")
 			(name "unconnected-(U12-PIN_MODE-Pad19)")
 			(class "Default")
 			(node
@@ -29759,7 +28380,7 @@
 			)
 		)
 		(net
-			(code "150")
+			(code "145")
 			(name "unconnected-(U12-TEMP_N-Pad21)")
 			(class "Default")
 			(node
@@ -29770,7 +28391,7 @@
 			)
 		)
 		(net
-			(code "151")
+			(code "146")
 			(name "unconnected-(U12-TEMP_P-Pad20)")
 			(class "Default")
 			(node
@@ -29781,7 +28402,7 @@
 			)
 		)
 		(net
-			(code "152")
+			(code "147")
 			(name "unconnected-(U13-BO-Pad22)")
 			(class "Default")
 			(node
@@ -29792,7 +28413,7 @@
 			)
 		)
 		(net
-			(code "153")
+			(code "148")
 			(name "unconnected-(U13-CLKO-Pad23)")
 			(class "Default")
 			(node
@@ -29803,7 +28424,7 @@
 			)
 		)
 		(net
-			(code "154")
+			(code "149")
 			(name "unconnected-(U13-CO-Pad25)")
 			(class "Default")
 			(node
@@ -29814,7 +28435,7 @@
 			)
 		)
 		(net
-			(code "155")
+			(code "150")
 			(name "unconnected-(U13-INV_CLKO-Pad12)")
 			(class "Default")
 			(node
@@ -29825,7 +28446,7 @@
 			)
 		)
 		(net
-			(code "156")
+			(code "151")
 			(name "unconnected-(U13-NRSTO-Pad26)")
 			(class "Default")
 			(node
@@ -29836,7 +28457,7 @@
 			)
 		)
 		(net
-			(code "157")
+			(code "152")
 			(name "unconnected-(U13-PIN_MODE-Pad19)")
 			(class "Default")
 			(node
@@ -29847,7 +28468,7 @@
 			)
 		)
 		(net
-			(code "158")
+			(code "153")
 			(name "unconnected-(U13-TEMP_N-Pad21)")
 			(class "Default")
 			(node
@@ -29858,7 +28479,7 @@
 			)
 		)
 		(net
-			(code "159")
+			(code "154")
 			(name "unconnected-(U13-TEMP_P-Pad20)")
 			(class "Default")
 			(node
@@ -29869,7 +28490,7 @@
 			)
 		)
 		(net
-			(code "160")
+			(code "155")
 			(name "unconnected-(U14-B3Y-Pad11)")
 			(class "Default")
 			(node
@@ -29880,7 +28501,7 @@
 			)
 		)
 		(net
-			(code "161")
+			(code "156")
 			(name "unconnected-(U14-NC-Pad6)")
 			(class "Default")
 			(node
@@ -29891,7 +28512,7 @@
 			)
 		)
 		(net
-			(code "162")
+			(code "157")
 			(name "unconnected-(U14-NC-Pad9)")
 			(class "Default")
 			(node
@@ -29902,18 +28523,7 @@
 			)
 		)
 		(net
-			(code "163")
-			(name "unconnected-(U15-5V-Pad12)")
-			(class "Default")
-			(node
-				(ref "U15")
-				(pin "12")
-				(pinfunction "5V_12")
-				(pintype "power_in+no_connect")
-			)
-		)
-		(net
-			(code "164")
+			(code "158")
 			(name "unconnected-(U15-GPIO2-Pad3)")
 			(class "Default")
 			(node
@@ -29924,7 +28534,7 @@
 			)
 		)
 		(net
-			(code "165")
+			(code "159")
 			(name "unconnected-(U15-GPIO3-Pad4)")
 			(class "Default")
 			(node
@@ -29935,7 +28545,7 @@
 			)
 		)
 		(net
-			(code "166")
+			(code "160")
 			(name "unconnected-(U15-GPIO12-Pad7)")
 			(class "Default")
 			(node
@@ -29946,7 +28556,7 @@
 			)
 		)
 		(net
-			(code "167")
+			(code "161")
 			(name "unconnected-(U15-GPIO16-Pad17)")
 			(class "Default")
 			(node
@@ -29957,7 +28567,7 @@
 			)
 		)
 		(net
-			(code "168")
+			(code "162")
 			(name "unconnected-(U15-GPIO21-Pad18)")
 			(class "Default")
 			(node
@@ -29968,7 +28578,7 @@
 			)
 		)
 		(net
-			(code "169")
+			(code "163")
 			(name "unconnected-(U15-NC-Pad9)")
 			(class "Default")
 			(node
@@ -29979,7 +28589,7 @@
 			)
 		)
 		(net
-			(code "170")
+			(code "164")
 			(name "unconnected-(U15-NC-Pad10)")
 			(class "Default")
 			(node
@@ -29990,7 +28600,7 @@
 			)
 		)
 		(net
-			(code "171")
+			(code "165")
 			(name "unconnected-(U15-NC-Pad16)")
 			(class "Default")
 			(node
@@ -30001,7 +28611,7 @@
 			)
 		)
 		(net
-			(code "172")
+			(code "166")
 			(name "unconnected-(U16-CLK-Pad9)")
 			(class "Default")
 			(node
@@ -30012,7 +28622,7 @@
 			)
 		)
 		(net
-			(code "173")
+			(code "167")
 			(name "unconnected-(U16-nALERT-Pad10)")
 			(class "Default")
 			(node
@@ -30023,7 +28633,7 @@
 			)
 		)
 		(net
-			(code "174")
+			(code "168")
 			(name "unconnected-(U18-ALERT-Pad3)")
 			(class "Default")
 			(node
@@ -30034,7 +28644,7 @@
 			)
 		)
 		(net
-			(code "175")
+			(code "169")
 			(name "unconnected-(U19-ALERT-Pad3)")
 			(class "Default")
 			(node
@@ -30042,17 +28652,6 @@
 				(pin "3")
 				(pinfunction "ALERT_3")
 				(pintype "open_collector+no_connect")
-			)
-		)
-		(net
-			(code "176")
-			(name "unconnected-(U20-PG-Pad4)")
-			(class "Default")
-			(node
-				(ref "U20")
-				(pin "4")
-				(pinfunction "PG_4")
-				(pintype "bidirectional+no_connect")
 			)
 		)
 	)

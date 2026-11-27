@@ -8665,7 +8665,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 173.99 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10354,7 +10354,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 175.26 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14744,7 +14744,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 71.12 199.136 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17925,7 +17925,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 313.69 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
