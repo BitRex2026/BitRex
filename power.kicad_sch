@@ -8628,16 +8628,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 246.38) (xy 203.2 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6293566a-de0c-4542-9adf-053959420f5f")
-	)
-	(wire
-		(pts
 			(xy 306.07 184.15) (xy 311.15 184.15)
 		)
 		(stroke
@@ -12135,16 +12125,6 @@
 			(type default)
 		)
 		(uuid "e001637a-8242-453b-a8c8-494e178a8bb1")
-	)
-	(wire
-		(pts
-			(xy 196.85 247.65) (xy 203.2 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0432937-ece0-43f0-91ee-0ae0db376406")
 	)
 	(wire
 		(pts
@@ -24973,84 +24953,6 @@
 			(project "BitRex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 203.2 246.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e0206f9-46eb-4b59-9fbf-b61204df1673")
-		(property "Reference" "#FLG014"
-			(at 203.2 248.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 203.7 243.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 203.2 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e35fec8d-61db-4202-91c7-c21ea32aed13")
-		)
-		(instances
-			(project "BitRex"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
-					(reference "#FLG014")
 					(unit 1)
 				)
 			)
