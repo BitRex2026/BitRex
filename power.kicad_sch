@@ -18172,7 +18172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" ""
 			(at 179.07 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -18183,7 +18183,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG LINEAR 3.3V 600MA/1A SOT23-5 (AP2112K-3.3TRG1 / ME6211C33M5G-N / TLV75733PDBVR)"
+		(property "Description" ""
 			(at 179.07 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -18194,7 +18194,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "AP2112K-3.3TRG1"
+		(property "Manufacturer" ""
 			(at 179.07 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -27705,7 +27705,7 @@
 				)
 			)
 		)
-		(property "OrderNr" "RMCF0805FT33K2CT-ND"
+		(property "OrderNr" ""
 			(at 33.02 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -27716,7 +27716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "RMCF0805FT33K2"
+		(property "Manufacturer" ""
 			(at 33.02 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -29834,7 +29834,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 1UF 25V X7R 0805"
+		(property "Description" "CAP CER 2.2UF 25V X7R 0805"
 			(at 90.17 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -29856,7 +29856,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CL21B105KAFNNNE"
+		(property "Manufacturer" ""
 			(at 90.17 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -29867,7 +29867,7 @@
 				)
 			)
 		)
-		(property "OrderNr" "1276-1066-1-ND"
+		(property "OrderNr" ""
 			(at 90.17 137.16 0)
 			(hide yes)
 			(show_name no)

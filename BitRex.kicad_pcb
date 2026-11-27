@@ -151,7 +151,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 162.1 180.03)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -1857,7 +1856,7 @@
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "M1"
-			(at 8.28 -3.33 270)
+			(at 3.35 4.582397 270)
 			(layer "F.SilkS")
 			(uuid "e575f488-b24a-4df1-bc28-6980453d0213")
 			(effects
@@ -1870,6 +1869,7 @@
 		(property "Value" "Fan_4pin"
 			(at 4.05 4.35 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d1eed5e9-b6c9-4464-86ba-a0b6337620bf")
 			(effects
 				(font
@@ -8473,10 +8473,9 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 90)
-			(layer "F.Fab")
-			(hide yes)
+		(property "Value" "PWE_EN"
+			(at -0.38 3.21 90)
+			(layer "F.SilkS")
 			(uuid "256f6f38-e37c-4090-8d2a-c390c987a425")
 			(effects
 				(font
@@ -9452,7 +9451,7 @@
 		(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
 		(tags "pin header 4-pin CPU fan")
 		(property "Reference" "M2"
-			(at 8.235 -3.3 90)
+			(at 3.8 4.512397 90)
 			(layer "F.SilkS")
 			(uuid "2a23bd03-86ea-4d12-a2ff-641cd04797cd")
 			(effects
@@ -9465,6 +9464,7 @@
 		(property "Value" "Fan_4pin"
 			(at 4.05 4.35 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "628b9fd2-f856-4dd2-9fd2-3be4336d0b0a")
 			(effects
 				(font
@@ -11147,9 +11147,9 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 4.37 -0.13 0)
+			(at 4.37 0 0)
 			(layer "F.SilkS")
-			(uuid "7ea5727d-a51f-4e70-932b-bb60fa32d115")
+			(uuid "54149abf-c431-4dc7-a2b3-6bcad25928c2")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11160,7 +11160,7 @@
 		(property "Value" "22µF/16V"
 			(at 0 1.85 0)
 			(layer "F.Fab")
-			(uuid "502f7fe1-bbe2-4b23-a988-80c529e1a60f")
+			(uuid "7e2dd45d-04bf-4506-93a0-d22c49fb2e26")
 			(effects
 				(font
 					(size 1 1)
@@ -11172,7 +11172,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "764acb5c-86ed-49ab-a3f0-821ad6f6efd8")
+			(uuid "86a4b777-6a85-4eda-b1a1-98498b50456d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11183,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52a3e281-ea71-4b2e-8916-e30fe4978ccf")
+			(uuid "8dca3eab-e0f3-4c63-86a5-1513dd682c72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14814,7 +14814,7 @@
 		(property "Reference" "TP1"
 			(at 0 -2.79 0)
 			(layer "F.SilkS")
-			(uuid "fb87e94d-2ce0-439e-aa2f-2d92c36a1fcf")
+			(uuid "283597b4-0596-41bf-b7d2-f58cf38ed982")
 			(effects
 				(font
 					(size 1 1)
@@ -14825,7 +14825,7 @@
 		(property "Value" "3V3"
 			(at 0 2.05 90)
 			(layer "F.Fab")
-			(uuid "d9509f1b-780a-4d38-a0e7-b3eecefa25e1")
+			(uuid "1473559a-d17c-4320-8a5a-2e4eb8e829d8")
 			(effects
 				(font
 					(size 1 1)
@@ -14838,7 +14838,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0d730fc-113d-46a1-9cdb-0c68829bdbd7")
+			(uuid "db854224-9eb0-4dc8-b174-842ded57d849")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,7 +14851,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e3ff9d4-59c5-4aa4-bc47-c2ee738bb6a5")
+			(uuid "30f975c2-c4a0-400f-9606-2a98256cbfa5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23053,7 +23053,7 @@
 		(descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
 		(tags "car blade fuse mini")
 		(property "Reference" "F1"
-			(at -4.08 1.7 180)
+			(at -4.08 1.7 0)
 			(layer "F.SilkS")
 			(uuid "cc4b4c20-f2c4-4d5a-a2c0-9d0765273044")
 			(effects
@@ -23063,9 +23063,9 @@
 				)
 			)
 		)
-		(property "Value" "Fuse/15A"
-			(at 4.96 6.07 90)
-			(layer "F.Fab")
+		(property "Value" "12V/15A"
+			(at 4.96 -2.782397 90)
+			(layer "F.SilkS")
 			(uuid "9d058378-7b93-4291-a127-3d05c4a2518f")
 			(effects
 				(font
@@ -24546,7 +24546,7 @@
 		(descr "Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x12 2.54mm single row")
 		(property "Reference" "U15"
-			(at 2.51 0 0)
+			(at -0.08 -3.27 0)
 			(layer "F.SilkS")
 			(uuid "680cbb9f-7cb2-4826-a6f8-987e5035e056")
 			(effects
@@ -24557,9 +24557,8 @@
 			)
 		)
 		(property "Value" "T-Display-S3"
-			(at -5.09 14.635 180)
-			(layer "F.Fab")
-			(hide yes)
+			(at 2.74 21.48 180)
+			(layer "F.SilkS")
 			(uuid "733b0f66-f130-4351-b79e-f242ce3e99b5")
 			(effects
 				(font
@@ -31533,7 +31532,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at 3.0925 -0.02 0)
+			(at -3.275103 -2.06 0)
 			(layer "F.SilkS")
 			(uuid "6ea9eb9f-26d5-4d91-93c7-53f0fb51e3e0")
 			(effects
@@ -46836,7 +46835,7 @@
 		(descr "TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U14"
-			(at -0.21 -3.5175 0)
+			(at -5.1475 2.57 0)
 			(layer "B.SilkS")
 			(uuid "2e949447-5cf3-46d9-8471-1305ccfb6b81")
 			(effects
@@ -52397,7 +52396,7 @@
 		(uuid "3d36e930-c4b3-4956-8559-07e5343c6c7d")
 		(at 212.417603 88.81 180)
 		(property "Reference" "U18"
-			(at 0.05 1.55 0)
+			(at -2.862397 -0.09 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "9e856629-8f74-4e91-b23a-a7f77ff270d3")
@@ -69400,7 +69399,7 @@
 		(descr "Texas RHA0040B VQFN, 40 Pin (http://www.ti.com/lit/ds/symlink/msp430g2755.pdf#page=72 JEDEC MO-220 variation VJJD-2)")
 		(tags "Texas VQFN NoLead")
 		(property "Reference" "U1"
-			(at -0.8675 4.65 0)
+			(at -3.81 3.41 0)
 			(layer "B.SilkS")
 			(uuid "dbcba8a2-ef31-4ce0-915e-f07dc1a97f03")
 			(effects
@@ -79858,6 +79857,84 @@
 		(layer "F.Fab")
 		(uuid "175fd469-aec2-4e1c-9c9b-01ab3830b2e5")
 	)
+	(gr_text "G"
+		(at 248.75 58.2 0)
+		(layer "F.SilkS")
+		(uuid "700a989c-d498-415d-96f4-a604a6ea349d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CI"
+		(at 249.86 61.85 0)
+		(layer "F.SilkS")
+		(uuid "6022c530-66f8-4a91-bd2a-3e1c2f2e51a7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RO"
+		(at 251.09 58.16 0)
+		(layer "F.SilkS")
+		(uuid "db05fd6a-08e2-4b2e-9c22-e5a58d8ac57d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 252.08 61.78 0)
+		(layer "F.SilkS")
+		(uuid "7e6f3c0e-6ab4-4b6d-8cac-34a48ed1304f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0V8"
+		(at 253.24 58.2 0)
+		(layer "F.SilkS")
+		(uuid "9183f1db-acdc-4b46-b307-17e1588fba56")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1V2\n"
+		(at 254.7 61.82 0)
+		(layer "F.SilkS")
+		(uuid "51359f12-c842-44db-9b34-7406954eea2b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SH.R - 2027\n"
 		(at 220.98 66.38 0)
 		(layer "F.SilkS")
@@ -79868,6 +79945,214 @@
 				(thickness 0.15)
 				(bold yes)
 				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3\n"
+		(at 252.26 78.65 90)
+		(layer "F.SilkS")
+		(uuid "82f2f8fd-c58b-4b0d-98a3-21183d31bdb3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 252.28 83.74 90)
+		(layer "F.SilkS")
+		(uuid "f5c48359-94d5-413d-901e-686ea530ebdf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3\n"
+		(at 252.32 67.33 90)
+		(layer "F.SilkS")
+		(uuid "6175935c-4bea-4b1a-90ce-494aaf0fe8e5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 252.33 81.71 90)
+		(layer "F.SilkS")
+		(uuid "11f375d3-7a36-43ea-b972-c38e55480f27")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 252.34 72.42 90)
+		(layer "F.SilkS")
+		(uuid "8e93dbca-aa04-4aef-b7e9-6b8b1b26a848")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4"
+		(at 252.38 75.52 90)
+		(layer "F.SilkS")
+		(uuid "58f64556-58d6-4426-9265-5ed3d0cba043")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 252.39 70.39 90)
+		(layer "F.SilkS")
+		(uuid "0587fa4b-fb69-4b81-ad72-7892b648f455")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4"
+		(at 252.44 64.2 90)
+		(layer "F.SilkS")
+		(uuid "bd26c787-c455-497b-9d47-5bf1a13317fa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TUCH"
+		(at 253.48 79.83 90)
+		(layer "F.SilkS")
+		(uuid "785a6e1a-3198-4d33-89cd-166ebeaa4623")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 253.5 83.82 90)
+		(layer "F.SilkS")
+		(uuid "ed374742-d093-4370-8e96-21238e40f38c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TUCH"
+		(at 253.54 68.51 90)
+		(layer "F.SilkS")
+		(uuid "f0a546f7-b0ab-4c22-9608-e8bf9f0351db")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12v"
+		(at 253.55 82.46 90)
+		(layer "F.SilkS")
+		(uuid "eaca54fe-bffd-4dd5-8d93-92985325e635")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 253.56 72.5 90)
+		(layer "F.SilkS")
+		(uuid "8d6d8188-f5f9-426a-a5c6-07a71f81b991")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PWM\n"
+		(at 253.6 76.44 90)
+		(layer "F.SilkS")
+		(uuid "1cab2c3c-fac6-4981-8b70-e8077eace9f0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12v"
+		(at 253.61 71.14 90)
+		(layer "F.SilkS")
+		(uuid "4580ed21-feb7-4992-b8e6-fa4beff5021f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PWM\n"
+		(at 253.66 65.12 90)
+		(layer "F.SilkS")
+		(uuid "dc99a9a0-28b3-4cf9-ada7-080f9b237004")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

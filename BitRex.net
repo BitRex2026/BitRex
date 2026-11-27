@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "E:\\NERD\\002-Proj\\001-BitRex\\003\\BitRex.kicad_sch")
-		(date "2026-11-27T11:55:56")
+		(date "2026-11-27T12:02:01")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -1980,21 +1980,23 @@
 			(ref "C18")
 			(value "2.2µF/25V")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(description "CAP CER 1UF 25V X7R 0805")
+			(description "CAP CER 2.2UF 25V X7R 0805")
 			(fields
 				(field
 					(name "Distributor") "D")
 				(field
-					(name "Manufacturer") "CL21B105KAFNNNE")
+					(name "Manufacturer")
+				)
 				(field
-					(name "OrderNr") "1276-1066-1-ND")
+					(name "OrderNr")
+				)
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "CAP CER 1UF 25V X7R 0805")
+					(name "Description") "CAP CER 2.2UF 25V X7R 0805")
 			)
 			(libsource
 				(lib "Device")
@@ -2007,11 +2009,11 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "CL21B105KAFNNNE")
+				(value "")
 			)
 			(property
 				(name "OrderNr")
-				(value "1276-1066-1-ND")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -10675,9 +10677,11 @@
 				(field
 					(name "Distributor") "D")
 				(field
-					(name "OrderNr") "RMCF0805FT33K2CT-ND")
+					(name "OrderNr")
+				)
 				(field
-					(name "Manufacturer") "RMCF0805FT33K2")
+					(name "Manufacturer")
+				)
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -10697,11 +10701,11 @@
 			)
 			(property
 				(name "OrderNr")
-				(value "RMCF0805FT33K2CT-ND")
+				(value "")
 			)
 			(property
 				(name "Manufacturer")
-				(value "RMCF0805FT33K2")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -14454,17 +14458,18 @@
 			(ref "U20")
 			(value "TLV75733PDBVR")
 			(footprint "Package_TO_SOT_SMD:SOT-23-5")
-			(datasheet "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
-			(description "IC REG LINEAR 3.3V 600MA/1A SOT23-5 (AP2112K-3.3TRG1 / ME6211C33M5G-N / TLV75733PDBVR)")
 			(fields
 				(field
-					(name "Manufacturer") "AP2112K-3.3TRG1")
+					(name "Manufacturer")
+				)
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
 				(field
-					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "IC REG LINEAR 3.3V 600MA/1A SOT23-5 (AP2112K-3.3TRG1 / ME6211C33M5G-N / TLV75733PDBVR)")
+					(name "Description")
+				)
 			)
 			(libsource
 				(lib "bitaxe")
@@ -14473,7 +14478,7 @@
 			)
 			(property
 				(name "Manufacturer")
-				(value "AP2112K-3.3TRG1")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
